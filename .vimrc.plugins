@@ -1,0 +1,38 @@
+call plug#begin('~/.vim/plugins')
+
+" UI Related
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'powerline/fonts'
+Plug 'rafi/awesome-vim-colorschemes'
+
+Plug 'luochen1990/rainbow'
+Plug 'jiangmiao/auto-pairs'
+Plug 'mhinz/vim-signify'
+Plug 'vim-syntastic/syntastic'
+Plug 'preservim/nerdtree'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+Plug 'kana/vim-textobj-user'
+Plug 'kana/vim-textobj-indent'
+Plug 'reedes/vim-textobj-sentence'
+Plug 'reedes/vim-textobj-quote'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tacahiroy/ctrlp-funky'
+Plug 'mg979/vim-visual-multi'
+Plug 'preservim/tagbar'
+Plug 'easymotion/vim-easymotion'
+Plug 'mbbill/undotree'
+Plug 'preservim/nerdcommenter'
+Plug 'godlygeek/tabular'
+Plug 'honza/vim-snippets'
+Plug 'SirVer/ultisnips'
+Plug 'vim-scripts/HTML-AutoCloseTag'
+Plug 'hail2u/vim-css3-syntax'
+Plug 'rust-lang/rust.vim'
+Plug 'gko/vim-coloresque'
+Plug 'preservim/vim-wordy'
+Plug 'tpope/vim-fugitive'
+Plug 'ycm-core/YouCompleteMe'
+
+call plug#end()
